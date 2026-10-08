@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Review - Lists</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+  <header>
+    <h1>HTML Review Guide</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Structure</a></li>
+        <li><a href="text.html">Text</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="lists.html" class="active">Lists</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li><a href="forms.html">Forms</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="semantic.html">Semantic</a></li>
+        <li><a href="metadata.html">Metadata</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Page 4: List Tags</h2>
+
+    <!-- Tag <ul> -->
+    <div class="tag-card">
+      <h3>Tag &lt;ul&gt;</h3>
+
+      <h4>Definition</h4>
+      <p>Defines an unordered (bulleted) list of items where order does not matter.</p>
+
+      <h4>Attributes</h4>
+      <table>
+        <tr>
+          <th>Attribute</th>
+          <th>Role</th>
+        </tr>
+        <tr>
+          <td>class</td>
+          <td>Used to change bullet icons via CSS properties.</td>
+        </tr>
+      </table>
+
+      <h4>Example</h4>
+      <div class="example-container">
+        <div class="box-code">
+          <strong>Code:</strong>
+          <pre><code>&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+        <div class="box-result">
+          <strong>Result:</strong>
+          <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tag <ol> -->
+    <div class="tag-card">
+      <h3>Tag &lt;ol&gt;</h3>
+
+      <h4>Definition</h4>
+      <p>Defines an ordered (numbered) list of items arranged in numerical sequence.</p>
+
+      <h4>Attributes</h4>
+      <table>
+        <tr>
+          <th>Attribute</th>
+          <th>Role</th>
+        </tr>
+        <tr>
+          <td>start</td>
+          <td>Sets the starting number of the list.</td>
+        </tr>
+      </table>
+
+      <h4>Example</h4>
+      <div class="example-container">
+        <div class="box-code">
+          <strong>Code:</strong>
+          <pre><code>&lt;ol start="1"&gt;
+  &lt;li&gt;First step&lt;/li&gt;
+  &lt;li&gt;Second step&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </div>
+        <div class="box-result">
+          <strong>Result:</strong>
+          <ol start="1">
+            <li>First step</li>
+            <li>Second step</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 HTML Review Project. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
