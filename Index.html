@@ -1,1 +1,138 @@
-Page 1 - Home & Page Structure
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Структура HTML страницы</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <h1 class="site-title">HTML Review Reference</h1>
+      <p class="site-subtitle">Интерактивный справочник основных тегов и атрибутов</p>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Структура</a></li>
+        <li><a href="text.html">Текст</a></li>
+        <li><a href="links.html">Ссылки</a></li>
+        <li><a href="lists.html">Списки</a></li>
+        <li><a href="tables.html">Таблицы</a></li>
+        <li><a href="forms.html">Формы</a></li>
+        <li><a href="media.html">Мультимедиа</a></li>
+        <li><a href="semantic.html">Семантика</a></li>
+        <li><a href="metadata.html">Метаданные</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="page-title">Page 1: Структура страницы</h2>
+    <p class="page-description">Базовые элементы, определяющие скелет и корневые границы любого HTML-документа.</p>
+
+    <article class="tag-card">
+      <h2 class="tag-title">&lt;html&gt;</h2>
+      <div class="section-block">
+        <h3>Definition</h3>
+        <p>Корневой элемент документа, содержащий в себе все остальные HTML-теги веб-страницы.</p>
+      </div>
+      <div class="section-block">
+        <h3>Attributes</h3>
+        <table class="attributes-table">
+          <thead>
+            <tr>
+              <th>Attribute</th>
+              <th>Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>lang</code></td>
+              <td>Определяет основной естественный язык содержимого страницы (например, "ru" или "en").</td>
+            </tr>
+            <tr>
+              <td><code>dir</code></td>
+              <td>Задает направление чтения текста (ltr — слева направо, rtl — справа налево).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="section-block">
+        <h3>Example</h3>
+        <div class="example-container">
+          <div class="example-box example-code">
+            <div class="example-header">Code</div>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Пример&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Контент документа&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+          </div>
+          <div class="example-box example-result">
+            <div class="example-header">Result</div>
+            <div class="render-area">
+              <p>Документ успешно загружен в корневой контейнер html.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tag-card">
+      <h2 class="tag-title">&lt;body&gt;</h2>
+      <div class="section-block">
+        <h3>Definition</h3>
+        <p>Представляет тело документа и содержит весь видимый пользователю интерфейс и контент страницы.</p>
+      </div>
+      <div class="section-block">
+        <h3>Attributes</h3>
+        <table class="attributes-table">
+          <thead>
+            <tr>
+              <th>Attribute</th>
+              <th>Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>class</code></td>
+              <td>Назначает один или несколько CSS-классов для стилизации всего содержимого страницы.</td>
+            </tr>
+            <tr>
+              <td><code>id</code></td>
+              <td>Уникальный глобальный идентификатор тела страницы для скриптов и стилей.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="section-block">
+        <h3>Example</h3>
+        <div class="example-container">
+          <div class="example-box example-code">
+            <div class="example-header">Code</div>
+            <pre><code>&lt;body class="main-page"&gt;
+  &lt;p&gt;Видимый контент страницы&lt;/p&gt;
+&lt;/body&gt;</code></pre>
+          </div>
+          <div class="example-box example-result">
+            <div class="example-header">Result</div>
+            <div class="render-area">
+              <p>Видимый контент страницы</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 HTML Review Project. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
