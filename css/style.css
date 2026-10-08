@@ -1,4 +1,4 @@
-/* Базовые настройки страницы */
+/* General page styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,7 +7,7 @@ body {
   color: #333333;
 }
 
-/* Шапка сайта */
+/* Header */
 header {
   background-color: #2c3e50;
   color: #ffffff;
@@ -19,7 +19,7 @@ header h1 {
   margin: 0 0 15px 0;
 }
 
-/* Навигационное меню на Flexbox */
+/* Navigation menu using Flexbox */
 nav ul {
   display: flex;
   justify-content: center;
@@ -33,7 +33,7 @@ nav ul {
 nav a {
   color: #ecf0f1;
   text-decoration: none;
-  padding: 8px 12px;
+  padding: 8px 14px;
   background-color: #34495e;
   border-radius: 4px;
 }
@@ -43,15 +43,15 @@ nav a.active {
   background-color: #3498db;
 }
 
-/* Основной блок контента */
+/* Main container */
 main {
   max-width: 900px;
   margin: 20px auto;
   padding: 0 15px;
 }
 
-/* Блок карточки одного тега */
-.tag-block {
+/* Tag presentation card */
+.tag-card {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 6px;
@@ -59,14 +59,14 @@ main {
   margin-bottom: 25px;
 }
 
-.tag-block h3 {
+.tag-card h3 {
   color: #2c3e50;
   border-bottom: 2px solid #3498db;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
   margin-top: 0;
 }
 
-/* Таблица атрибутов (2 колонки) */
+/* 2-column Attributes Table */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -86,15 +86,15 @@ th {
   background-color: #eaecef;
 }
 
-/* Блок демонстрации примера (Flexbox) */
-.example-flex {
+/* Examples layout using Flexbox */
+.example-container {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
 }
 
-.code-box,
-.result-box {
+.box-code,
+.box-result {
   flex: 1 1 380px;
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -102,21 +102,21 @@ th {
   background-color: #fafafa;
 }
 
-/* Отображение кода */
+/* Code box display */
 pre {
   background-color: #282c34;
   color: #61dafb;
   padding: 10px;
   border-radius: 4px;
   overflow-x: auto;
-  margin: 5px 0 0 0;
+  margin: 8px 0 0 0;
 }
 
 code {
   font-family: Consolas, monospace;
 }
 
-/* Подвал */
+/* Footer */
 footer {
   background-color: #2c3e50;
   color: #ffffff;
